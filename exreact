@@ -1,0 +1,65 @@
+# ex1react
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login{
+            border-radius: 5px;
+            border: 1px solid;
+            width: 15rem;
+            background-color: dodgerblue;
+        }
+        
+        .item-id{
+            font-weight: 700;
+            display: flex;
+            gap: 5px;
+            margin: 0 15px 15px 15px;
+            flex-direction: column;
+        }
+        input{
+            border-radius: 3px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login list-item" >
+        <h3 style="text-align: center;">Resignter</h3>
+        <div class="item-id active">
+            <label for="">Name:</label>
+            <input type="text" name="" id="1">
+        </div>
+        <div class="item-id active">
+            <label for="">Email:</label>
+            <input type="text" name="" id="2">
+        </div>
+        <div class="item-id active">
+            <label for="">Phone:</label>
+            <input type="text" name="" id="3">
+        </div>
+        <div class="item-id active">
+            <label for="">Birthday</label>
+            <input type="date" name="" id="4">
+        </div>
+        <div class="item-id active">
+            <label for="">Address</label>
+            <input type="text" name="" id="5">
+        </div>
+        <div class="item-id active">
+            <label for="">Note</label>
+            <input type="text" name="" id="6">
+        </div>
+    </div>
+</body>
+</html>
